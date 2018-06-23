@@ -112,16 +112,17 @@ h3 {
   display: block;
   color: #e67e22;
   margin-bottom: 10px;
-  transition: border-bottom 0.2s, color 0.2s;
 }
 
 /* ----- LINKS ----- */
+
 a:link,
 a:visited {
   color: #e67e22;
   text-decoration: none;
   padding-bottom: 1px;
   border-bottom: 1px solid #e67e22;
+  transition: border-bottom 0.2s, color 0.2s;
 }
 
 a:hover,
